@@ -1,0 +1,77 @@
+/* Universal Styles */
+
+html {
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 560px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+input:focus {
+  outline: none;
+}
+
+/* Reusable Component - Image Container */
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  background: #000;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+/* App Styles */
+
+.App {
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  padding: .66rem 0;
+  text-align: center;
+  background-color: #cca353;
+  font-family: Poppins, sans-serif;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.Sorting-button{
+  margin-top: 30px;
+  display:flex;
+  flex-direction: column;
+
+}
+
+.ASCDESC ul {
+  justify-content: space-evenly;
+  
+  text-align: center;
+ 
+  list-style-type: none;
+}
+
+li{
+  float: right;
+  padding: 16px;
+  margin: 10px;
+}
+.ASC ,.DESC  {
+  background-color: #cca353;
+  padding: 10px;
+  font-weight: 200;
+  transition: background-color .5s;
+  flex-direction: column;
+}
+
+.Sorting-button li:hover, .Sorting-button li:hover {
+  cursor: pointer;
+  background-color: #a7874b;
+}
