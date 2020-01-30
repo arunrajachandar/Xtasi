@@ -1,7 +1,6 @@
 ;
 
-    const apiKey ='wOGAOtoExSNYsyedxHN33kcvgaxLHkVjjje26irFatlC9kXFB456ZINKBr0Psfrv4ZANNO6tjrk3cKgGHdpjXNkaIM2kMrwrU0fQwhyKGySM0Lh0qXf1iQO0wWEpXnYx';
-
+    const apiKey ='';
 
 const Yelp ={
     search: async function(term, location, sortBy){
